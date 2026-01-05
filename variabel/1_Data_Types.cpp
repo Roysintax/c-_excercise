@@ -42,4 +42,17 @@ int main() {
   int year = 2024;
   int age = 28;
   bool honor = false;
+  double pi = 3.14159;
+  double meal_cost = 12.99;
+  char mention = '@';
+  char hashtag = '#';
+  std::string message = "good nite 😊";
+  std::string username = "@potus";
+  bool late_to_class = false;
+  bool cranky = true;
+
+  std::cout << "Name:" << name << std::endl;
+  std::cout << "GPA:" << gpa << std::endl;
+
+  return 0;
 }
