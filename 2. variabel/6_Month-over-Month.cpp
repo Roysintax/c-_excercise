@@ -1,3 +1,32 @@
+// User Input
+// Thus far, we've only been outputting things to the user with std::cout, making our programs one-sided and not that fun. Almost every popular website, mobile app, or video game that you’re using has both input and output.
+
+// So how do we get input from the user?
+
+// C++ uses the std::cin to get user input:
+
+// std::cout << "Enter your name: ";
+// std::cin >> username;
+
+// The cin (character input) refers to the standard input stream. It’s followed by the >> operator and the input variable.
+
+// In the above example, the output will say "Enter your name: " and the user can type their response. They hit enter, and whatever the user typed gets stored in the username variable.
+
+// Reminder: You need to declare a variable before you can use it.
+
+// The full code should look something like:
+
+// std::string username;
+
+// std::cout << "Enter your name: ";
+// std::cin >> username;
+
+// std::cout << username;
+
+// So here, we are declaring an empty username string before asking them to enter their name. And suppose the user typed in their name and pressed enter, it will output their name.
+
+// The whole process looks like this in the terminal:
+
 #include <iostream>
 #include <iomanip> // For controlling output precision
 
